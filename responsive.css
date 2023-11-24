@@ -1,0 +1,23 @@
+@media (width >= 1440px){
+    .footer{
+        display: none;
+    }.images{
+        display: none;
+    }
+    .imagesdesk{
+        display: block;
+        position: absolute;
+        left: 0;
+    }.footerdesk{
+        display: block;
+        position: absolute;
+        top: 74%;
+        left: 0;
+    }.abs3{
+        left: 65%;
+        top: 55%;
+    }
+    .body{
+        overflow: hidden;
+    }
+}
