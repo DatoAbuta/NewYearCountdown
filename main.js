@@ -5,7 +5,7 @@ const seconds = document.querySelector('.seconds')
 
 const currentYear = new Date().getFullYear()
 
-const newYearTime = new Date(`December 31 ${currentYear + 1} 00:00:00`);
+const newYearTime = new Date(`December 31 ${currentYear} 00:00:00`);
 
 function updateCountdowntime(){
     const currentTime = new Date();
