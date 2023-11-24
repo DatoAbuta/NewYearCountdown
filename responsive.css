@@ -54,6 +54,63 @@
     .body{
         overflow: hidden;
     }
+    .days,.hours,.minutes,.seconds{
+        color: #FB5E84;
+        /* text-align: center; */
+        font-family: 'Red Hat Text';
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -2.4px;
+        width: 104px;
+        height: 71px;
+    }
+    h6{
+        color: #8385A9;
+        /* text-align: center; */
+        font-family: 'Red Hat Text';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 5.919px;
+        width: 148px;
+        height: 18px;
+        /* text-align: center; */
+    }
+    .countdown{
+        column-gap: 15px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    h1{
+        color: #FFF;
+        /* text-align: center; */
+        font-family: 'Red Hat Text';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+        width: 439px;
+        height: 29px;
+        margin-left: 100%;
+        transform: translateX(-125%);
+    }
+    .noga{
+        margin-left: 15px;
+    }
+    .nog{
+        margin-left: 15px;
+    }
+    .no{
+        margin-left: 15px;
+    }
+    .n{
+        margin-left: 15px;
+    }
 }
 @media (width >= 1920px){
     .footer{
