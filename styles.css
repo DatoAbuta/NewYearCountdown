@@ -54,6 +54,9 @@ h6{
     line-height: 71px;
     letter-spacing: -1.08px;
 }
+.disn{
+    display: none;
+}
 
 .countdown{
     display: flex;
