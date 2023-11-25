@@ -21,7 +21,43 @@
     }.disn{
         position: absolute;
         display: block;
-        top: 74%;
+        top: 77%;
+        left: 7px;
+    }
+    .dispn{
+        display: none;
+    }
+    .body{
+        overflow: hidden;
+    }
+}
+@media (width >= 550px){
+    .footer{
+        display: block;
+    }.images{
+        display: block;
+    }
+    .imagesdesk{
+        display: none;
+        position: absolute;
+        left: 0;
+    }.footerdesk{
+        display: none;
+        position: absolute;
+        top: 77%;
+        left: 0;
+    }.abs3{
+        left: 87%;
+        top: 85%;
+    }.abs1{
+        display: none;
+    }.disn{
+        display: none;
+    }
+    .dispn{
+        position: absolute;
+        display: block;
+        top: 647px;
         left: 0;
     }
     .body{
@@ -30,12 +66,16 @@
 }
 
 
+
+
 @media (width >= 1440px){
     .footer{
         display: none;
     }.images{
         display: none;
     }.disn{
+        display: none;
+    }.dispn{
         display: none;
     }
     .imagesdesk{

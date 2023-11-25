@@ -25,7 +25,9 @@ body{
     top: 81%;
     left: 0%;
 }
-
+.dispn{
+    display: none;
+}
 .abs2{
     position: absolute;
 }
