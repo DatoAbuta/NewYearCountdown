@@ -77,10 +77,11 @@
         letter-spacing: 5.919px;
         width: 148px;
         height: 18px;
+        margin-top: 61px;
         /* text-align: center; */
     }
     .countdown{
-        column-gap: 15px;
+        column-gap: 32px;
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
@@ -110,6 +111,14 @@
     }
     .n{
         margin-left: 15px;
+    }
+    .time{
+        width: 148px;
+        height: 150px;
+        flex-shrink: 0;
+        background-color: hsla(236, 21%, 26%, 1);
+        border-radius: 5px;
+        padding-top: 34px;
     }
 }
 @media (width >= 1920px){
